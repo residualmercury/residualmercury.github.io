@@ -1,0 +1,48 @@
+
+
+
+body {
+
+background-image: url("http://www.planwallpaper.com/static/images/simple_blue_background-wallpaper-1920x1200.jpg");
+color: black;
+/** text-align: center; **/
+/** border: 3px; **/
+padding: 0px 100px;
+}
+
+
+header {
+text-align: center;
+}
+
+
+.intro {
+/**text-align: center; **/
+display: flex;
+/**min-height: 10px;**/
+justify-content: center;
+}
+
+ .intro p {
+align-items: stretch;
+ }
+
+
+
+h1 {
+  /** text-align: center; **/
+  margin: auto;
+}
+
+
+.inline {
+  display: inline-block;
+}
+
+div.mainLinks {
+border: solid yellow 3px;
+display: inline-flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-basis: 40px;
+}

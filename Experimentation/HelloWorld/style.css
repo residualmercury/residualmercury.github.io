@@ -1,0 +1,88 @@
+
+
+
+
+body {
+    background-image: url("https://www.pexels.com/photo/half-moon-198626/");
+    background-size: cover;
+   background-position: center;
+   height: 300px;
+   background-color: darkgrey;
+  }
+
+.green {color:green;
+}
+
+.lightGreen {color: lightgreen;
+}
+
+.italics {font-style: italic;
+}
+
+.bold {font-weight: bold;
+}
+
+.bolder {font-weight: bolder;
+}
+
+.intro {color: aqua;
+}
+
+.background {background-color: .....;
+}
+
+#allCaps {text-transform: uppercase;
+
+}
+
+h1 {
+  background-color: yellow;
+  color: red;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.overlay {
+  opactiy: 0.5;
+}
+
+.caption {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 30px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 300px;
+  width: 60%;
+  background-color: white;
+  color: black;
+  opacity: 0.75;
+  font-size: 30px;
+}
+
+#main-banner {
+  background-image: url("https://www.pexels.com/photo/half-moon-198626/");
+  background-size: cover;
+ background-position: center;
+ height: 300px;
+}
+
+/**p {
+display: inline;
+}**/
+
+.inline {
+display: inline-block;
+}
+
+
+
+
+
+
+/*p {
+  font-size: 30px;
+}*/

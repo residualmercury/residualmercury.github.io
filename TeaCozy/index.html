@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,12 +8,12 @@
   </head>
   <body>
 
+
+    <!-- header container -->
     <header>
       <div class="Logo">
         <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png " alt="Logo" style="width:145px;height:50px;">
       </div>
-
-
       <nav>
         <a id="space_1" href="#">Mission</a>
         <a id="space_2" href="#">Featured Tea</a>
@@ -19,20 +21,11 @@
       </nav>
     </header>
 
+    <!-- main container -->
     <div class="main_container">
+
+      <!-- 1st child container -->
       <div class="Our_Mission">
-        <div class="mission_stat">
-          <div class="top_Bottom_stats">
-            <h2 id="top_stat">Our Mission</h2>
-            <h4 id="bottom_stat">Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea </h4>
-          </div>
-        </div>
-      <div>
-
-
-add/delete stuff and otherwise customize...
-
-      <div class="Tea_of_the_Month">
         <div class="mission_stat">
           <div class="top_Bottom_stats">
             <h2 id="top_stat">Our Mission</h2>
@@ -41,10 +34,116 @@ add/delete stuff and otherwise customize...
         </div>
       </div>
 
+      <!-- 2nd child container -->
+      <div id="width" class="Tea_of_the_Month">
+          <div class="top_bot_titles">
+            <h2>Tea of the Month</h2>
+            <h4 id="bottom_statement">What's Steeping at The Tea Cozy?</h4>
+            <div class="_5_images">
+              <div class="Fall_Berry_Blitz_Tea">
+                <div class="Fall_Berry_pic">
+                  <img id=TofM_bot_pic src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg" alt="Fall Berry pic"  style="width:300px;height:200px;">
+                </div>
+                <!-- I may want to consider putting below as <P> etc. -->
+                <div id="TofM_bot_txt" class="Fall_Berry_txt">Fall Berry Blitz Tea</div>
+              </div>
+              <div class="Spiced_Rum_Tea">
+                <div class="Spiced_Rum_pic">
+                  <img id=TofM_bot_pic src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg" alt="Spiced Rum pic" style="width:300px;height:200px;">
+                </div>
+                <div id="TofM_bot_txt" class="Spiced_Rum_txt">Spiced Rum Tea</div>
+              </div>
+              <div class="Seasonal_Donuts">
+                <div class="Seaonal_Donut_pic">
+                  <img id=TofM_bot_pic src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg" alt="Seasonal Donut pic" style="width:300px;height:200px;">
+                </div>
+                <div id="TofM_bot_txt" class="Seasonal_Donut_txt">Seasonal Donuts</div>
+              </div>
+              <div class="Myrtle_Ave_Tea">
+                <div class="Myrtle_Ave_pic">
+                  <img id=TofM_bot_pic src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg " alt="Myrtle Ave pic" style="width:300px;height:200px;">
+                </div>
+                <div id="TofM_bot_txt" class="Myrtle_Ave_txt">Myrtle Ave Tea</div>
+              </div>
+              <div class="Bedford_Bizarre_Tea">
+                <div class="Bedford_Bizarre_pic">
+                  <img id=TofM_bot_pic src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg" alt="Bedford Bizarre pic" style="width:300px;height:200px;">
+                </div>
+                <div id="TofM_bot_txt" class="Bedford_Bizarre_txt">Bedford Bizarre Tea</div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- 3rd child container -->
+      <!-- inside the "Locations" id is where the background image will be -->
 
 
+      <!-- <div class="top_bot_titles">
+        <h2>Tea of the Month</h2>
+        <h4 id="bottom_statement">What's Steeping at The Tea Cozy?</h4>
+        <div class="_5_images">
+          <div class="Fall_Berry_Blitz_Tea">
+            <div class="Fall_Berry_pic">
+              <img id=TofM_bot_pic src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg" alt="Fall Berry pic"  style="width:300px;height:200px;">
+            </div>
+-->
 
+      <div id="loc_backgr_img" class="Locations">
+        <div id="top_statement">
+          <h2 id="center">Locations</h2>
+        </div>
+        <div class="_3_Locations">
+            <div id="bot_format" class="Downtown">
+              <div class="top_bot_info">
+                <h3 id="top_descrip">Downtown</h3>
+                <div id="bot_descript">
+                  <p>384 West 4th St</p>
+                  <p>Suite 108</p>
+                  <p>Portland, Maine</p>
+                </div>
+              </div>
+            </div>
 
+            <div id="bot_format" class="East_Bayside">
+              <div class="top_bot_info">
+                <h3 id="top_descrip">East Bayside</h3>
+                <div id="bot_descript">
+                  <p>3433 Phisherman's Avenue</p>
+                  <p>(Northwest Corner)</p>
+                  <p>Portland, Maine</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="Oakdale">
+              <div class="top_bot_info">
+                <h3 id="top_descrip">Oakdale</h3>
+                <div id="bot_descript">
+                  <p>515 Crescent Avenue<p>
+                  <p>Second Floor</p>
+                  <p>Portland, Maine</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+
+      <div id="upper_footer" class="contact_info">
+        <div class="upperFooterInfo">
+          <h2 id="top_descrip">The Tea Cozy</h2>
+          <div id="bot_descript">
+            <h5>contact@theteacozy.com</h5>
+            <h5>917-555-8904</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <span id="align_left"><h5>&copy;The Tea Cozy 2017</h5></span>
+    </footer>
 
   </body>
 </html>

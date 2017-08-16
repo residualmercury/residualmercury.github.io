@@ -1,0 +1,279 @@
+
+body {
+  margin-top: auto;
+}
+
+
+.header {
+  display: flex;
+  position: fixed;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  align-items: center;
+  /*border: green solid; */
+  margin-bottom: 9px;
+  border-bottom: solid black thin;
+  background-color: white;
+  z-index: 10;
+}
+
+
+img {
+/*border: solid red;*/
+}
+
+
+.logo {
+flex-grow: 1;
+display: flex;
+align-items: center;
+}
+
+
+.logo p{
+  display: flex;
+  align-items: center;
+  color: MediumAquamarine;
+  /*border: solid red;*/
+  flex-basis: auto;
+  height: 50px;
+  width: 240px;
+  padding-left: 7px;
+}
+
+
+nav {
+    align-items: center;
+    /*border: solid red;*/
+    flex-basis: auto;
+    padding: 0px 45px;
+    width: auto;
+}
+
+
+
+
+
+#World {
+  color: black;
+  padding-right: 10px;
+}
+
+#US {
+  color: black;
+  padding-right: 10px;
+}
+
+#Tech {
+  color: black;
+  padding-right: 10px;
+}
+
+#Science {
+  color: black;
+}
+
+
+
+
+
+
+.main_container {
+  display: flex;
+  /*border: solid black;*/
+  align-content: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+
+.Funny h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+
+.Funny {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  height: 300px;
+}
+
+.Earth {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+.Research {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+.Cats {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+div {
+  /*border: solid pink; */
+}
+
+
+.columns_of_3 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.columns_of_3 p {
+  display: flex;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#textPlus {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+
+#text {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+
+
+.left_col_inline-flex {
+  display: inline-flex;
+}
+
+.left_col_not_inline-flex {
+  display: block;
+}
+
+
+.left_col {
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 32px;
+}
+
+
+.mid_col {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 32px;
+}
+
+
+.right_col {
+  display: flex;
+  width: 240px;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 32px;
+}
+
+.News_Bites h3 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size:16px;
+  padding-bottom: 30px;
+}
+
+.News_Bites_items {
+  border-top: black;
+  border-bottom: black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+#borders {
+border-bottom: solid black thin;
+padding-left: 10px;
+padding-bottom: 5px;
+}
+
+
+
+.img_cookie {
+  display: flex;
+}
+
+
+.footer {
+display: flex;
+width: auto;
+min-height: 400px;
+justify-content: center;
+align-items: center;
+/*border: solid lightgrey;*/
+background-color: MediumAquamarine;
+margin-top: 100px;
+font-family: Verdana;
+font-size: 12px;
+}
+
+
+.top_all-together {
+  display: flex;
+  height: 50px;
+  width: auto;
+  align-items: center;
+  /*border: solid blue;*/
+  justify-content: center;
+}
+
+
+.footer_title {
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.footer_nav {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+}
+
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  flex-wrap: wrap;
+}

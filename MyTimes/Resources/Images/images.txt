@@ -1,0 +1,25 @@
+
+Images
+
+
+1. logo --> https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myt-logo.jpg
+
+
+
+2. Cat CEO --> https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png
+
+
+
+3. Fall Season --> https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png
+
+
+
+4. Hipster Camera Man --> https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png
+
+
+
+5. Cookie --> https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png
+
+
+
+6. Main Story --> https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png

@@ -1,0 +1,14 @@
+Images:
+
+
+
+
+1) Index.html (main page) background:
+
+"http://www.planwallpaper.com/static/images/simple_blue_background-wallpaper-1920x1200.jpg "
+
+
+2) HB Logo: "http://gameznhomework.com/beta/Images/hillbrook.png"
+
+
+3)STEAM: "http://www.d120.org/assets/1/stem/STEAM_logo.png"

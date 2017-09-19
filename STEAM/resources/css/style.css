@@ -16,7 +16,7 @@ width: auto;
 margin: 0px 0px;
 }
 
-#Twit_Link {
+#head_Links {
   color: white !important;
 }
 
@@ -39,11 +39,11 @@ margin: 0px 0px;
 
 .header {
 display: flex;
-flex-wrap: wrap;
+/** flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 align-content: space-around;
-text-align: center;
+text-align: center; **/
 /**display: inline-block;**/
 width: 200px;
 /**border: solid thin white;**/
@@ -68,6 +68,19 @@ padding: 30px 0px;
       opacity: 0.9;
   }
 
+
+/** #AH_Sizing {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+} **/
+
+
+
+
+
 #STEAM_title {
   display: flex;
   align-items: center;
@@ -79,6 +92,7 @@ padding: 30px 0px;
 
 #STEAM {
   opacity: 1;
+  color: LightSlateGrey !important;
   /** align-items: center;
   align-content: center;
   justify-content: center; **/
@@ -170,15 +184,14 @@ li {
 }
 
 
-#footer {
-  /** border: thin solid yellow; **/
+#instructor {
+  color: LightSlateGrey !important;
 }
 
 
-.instructor {
+.footer {
 padding-top: 30px;
 font-family: 'Quicksand', sans-serif;
-color: LightSlateGrey;
 line-height: 125px;
 text-align: center;
 /** border: thick solid pink; **/
